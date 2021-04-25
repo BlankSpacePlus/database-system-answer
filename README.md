@@ -121,9 +121,7 @@ create table prereq
     );
 
 delete from prereq;
-
 delete from time_slot;
-
 delete from advisor;
 delete from takes;
 delete from student;
