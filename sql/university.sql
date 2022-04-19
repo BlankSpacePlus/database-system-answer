@@ -1,16 +1,3 @@
-# 数据库系统概念课后题答案分享
-
-![](images/db.png)
-
-## 大学模式
-
-大学模式是随书的核心样例模式，其E-R图如下：
-
-![](images/E-R-Diagram.png)
-
-大学模式的构建代码如下：
-
-```sql
 DROP DATABASE IF EXISTS `university`;
 
 CREATE DATABASE `university`;
@@ -355,4 +342,3 @@ INSERT INTO `time_slot` VALUES ('G', 'F', '16', '0', '16', '50');
 INSERT INTO `time_slot` VALUES ('G', 'M', '16', '0', '16', '50');
 INSERT INTO `time_slot` VALUES ('G', 'W', '16', '0', '16', '50');
 INSERT INTO `time_slot` VALUES ('H', 'W', '10', '0', '12', '30');
-```
